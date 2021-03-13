@@ -1,0 +1,344 @@
+* {
+  padding: 0;
+  margin: 0;
+  /*transition: .4s;*/
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.clr {
+  clear: both;
+}
+.sec-img {
+  background-image: url(../images/Luxe-11.png);
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 420px;
+}
+
+#second {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* #box
+{ 
+    width: 90%;
+    
+} */
+
+#box h2 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(251, 130, 106, 0.6);
+
+  cursor: pointer;
+  color: white;
+}
+
+#box div {
+  padding: 10px;
+  background-color: white;
+  display: none;
+  border-bottom: 2px solid rgba(251, 130, 106, 0.6);
+}
+
+#counter {
+  /* background-image: url(../images/invitation-2508607__340.jpg); */
+
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+  color: white;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(251, 130, 106, 0.6) 0%,
+      rgba(251, 130, 106, 0.6) 100%
+    ),
+    url(../images/invitation-2508607__340.jpg);
+}
+
+.container {
+  padding: 100px 0px;
+}
+
+.box2 {
+  padding: 50px;
+  border: 1px solid #fff;
+}
+
+#hire-me {
+  margin-top: 100px;
+}
+
+#hire-me .head h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#hire-me .head p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+#hire-me .con-info h3 {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+#hire-me .con-info p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #777;
+}
+
+#hire-me .icons {
+  margin-top: 50px;
+}
+#hire-me .icons p {
+  margin-bottom: 35px;
+}
+#hire-me i {
+  margin-right: 20px;
+  color: #777;
+}
+#hire-me .red {
+  color: rgba(251, 130, 106) !important;
+}
+
+#hire-me .con-info .con-social {
+  margin-top: 60px;
+  color: #777;
+}
+
+#hire-me .con-info .con-social i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+#hire-me .con-info .con-social i:hover {
+  color: #fff;
+  background-color: rgba(251, 130, 106);
+  border: 1px solid rgba(251, 130, 106);
+}
+#hire-me form input,
+#hire-me form textarea {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#hire-me form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+#hire-me form button {
+  background-color: rgba(251, 130, 106);
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+#char {
+  font-size: 20px;
+  color: rgba(251, 130, 106);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+:root {
+  --dark-color: hsl(0, 0%, 0%);
+  --gray-color: hsl(0, 0%, 60%);
+  --light-color: hsl(0, 0%, 100%);
+  --border-color-dark: hsl(10, 95%, 70%);
+  --border-color-normal: hsl(10, 95%, 83%);
+  --border-color-light: hsl(10, 95%, 93%);
+}
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL STYLES */
+a {
+  text-decoration: none;
+  transition: 0.25s;
+}
+button {
+  background: transparent;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  font-size: 0.875em;
+  font-weight: 600;
+  height: 2em;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  transition: 0.25s;
+}
+button:hover {
+  color: rgba(251, 130, 106);
+}
+header {
+  min-height: 100vh;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 80%;
+  width: 100%;
+}
+p {
+  color: var(--gray-color);
+  font-size: 0.875em;
+  hyphens: auto;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+/* CONTAINERS STYLES */
+.container {
+  padding: 1em;
+}
+.flex-container {
+  display: flex;
+}
+
+/* HEADER NAV */
+.logo-link {
+  color: var(--dark-color);
+  font-weight: 600;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+.logo-link:hover {
+  color: rgba(251, 130, 106);
+}
+
+.header-menu-link:hover {
+  color: rgba(251, 130, 106);
+}
+
+.header-nav {
+  align-items: center;
+  flex-direction: column;
+}
+.header-menu {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.75em 0;
+}
+.header-menu-link {
+  color: var(--gray-color);
+  display: block;
+  font-size: 0.75em;
+  font-weight: 500;
+  padding: 0.5em 0.75em;
+  text-transform: uppercase;
+}
+.header-menu-link:hover {
+  text-decoration: underline;
+}
+.ghost-button {
+  border: 0.125em solid rgba(251, 130, 106);
+  min-width: 9em;
+  padding: 0 1em;
+}
+.ghost-button:hover {
+  background: rgba(251, 130, 106);
+  color: var(--light-color);
+}
+
+/* HEADER CONTENT */
+.header-img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5em var(--border-color-dark),
+    0 0 0 1em var(--border-color-normal), 0 0 0 1.5em var(--border-color-light);
+  height: 15em;
+  margin: 2em auto;
+  overflow: hidden;
+  width: 15em;
+}
+.header-description {
+  margin: auto;
+  max-width: 30em;
+}
+.header-title {
+  font-size: 2.5em;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  margin-left: -0.0625em;
+}
+.type-button {
+  margin-top: 1.5em;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* GLOBAL STYLES */
+  header {
+    overflow: hidden;
+  }
+  img {
+    object-position: 50% 100%;
+  }
+
+  /* CONTAINERS STYLES */
+  .container {
+    padding: 2em;
+  }
+
+  /* HEADER NAV */
+  .header-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-menu-link {
+    padding: 0 1.5em;
+  }
+  .ghost-button {
+    font-size: 0.75em;
+  }
+
+  /* HEADER CONTENT */
+  .header-content {
+    position: relative;
+  }
+  .header-img {
+    box-shadow: 0 0 0 2em var(--border-color-dark),
+      0 0 0 4em var(--border-color-normal), 0 0 0 6em var(--border-color-light);
+    height: 55vw;
+    margin: 0;
+    position: absolute;
+    right: -16vw;
+    top: 0vw;
+    width: 55vw;
+  }
+  .header-description {
+    margin: 6em 3em 0;
+    max-width: 50vw;
+  }
+  .header-title {
+    font-size: calc(1vw + 2.5em);
+  }
+}
+
+@media only screen and (orientation: portrait) and (min-height: 1024px) {
+  .header-content {
+    margin-top: 15vh;
+  }
+}
